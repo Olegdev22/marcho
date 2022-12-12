@@ -21,12 +21,13 @@ html {
   }
   
   body {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 1.5;
-	color: #000;
-	background-color: var(--main-bg-color);
+	font-family: 'Quicksand', 'Arial', 'Helvetica', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	color: var(--default);
+	background-color: #fff;
+	
   }
   
   .sr-only {
@@ -45,7 +46,7 @@ html {
   
   
   .container {
-	max-width: 1200px;
+	max-width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;
   }
