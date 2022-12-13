@@ -26,14 +26,15 @@
     text-decoration: none;
     display: inline-block;
     padding: 0 3px;
+    border: 1px solid transparent;
     color: var(--title);
-    transition: border-bottom-color 0.4s ease-in, border-color 0.4s ease-in, color 0.4s;
+    transition: border-bottom-color 0.3s ease-in, border-color 0.3s ease-in, color 0.3s;
 
     &:hover {
       font-weight: 700;
       color: var(--accent);
       border-bottom: 1px solid var(--accent);
-      
+
     }
 
     &--active {
@@ -45,8 +46,9 @@
 }
 
 .user-nav {
-    transform: translateY(3px);
-    
+  transform: translateY(3px);
+  margin-right: 12px;
+
   &__list {
     display: flex;
     align-items: flex-end;
@@ -56,6 +58,10 @@
     margin-right: 25px;
   }
 
+  &__item {
+    position: relative;
+  }
+
   &__link {
     display: inline-block;
     width: 22px;
@@ -63,10 +69,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     transition: filter 0.3s ease-in-out;
-    position: relative;
 
     &:hover {
-        filter: invert(50%) sepia(75%) saturate(5064%) hue-rotate(328deg) brightness(98%) contrast(105%);
+      filter: invert(50%) sepia(75%) saturate(5064%) hue-rotate(328deg) brightness(98%) contrast(105%);
     }
   }
 
@@ -81,7 +86,7 @@
     transition: filter 0.3s ease-in-out;
 
     &:hover {
-        filter: invert(50%) sepia(75%) saturate(5064%) hue-rotate(328deg) brightness(98%) contrast(105%);
+      filter: invert(50%) sepia(75%) saturate(5064%) hue-rotate(328deg) brightness(98%) contrast(105%);
     }
   }
 
