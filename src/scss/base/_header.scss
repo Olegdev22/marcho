@@ -26,20 +26,23 @@
     text-decoration: none;
     display: inline-block;
     padding: 0 3px;
+    line-height: 1.5;
     border: 1px solid transparent;
     color: var(--title);
     transition: border-bottom-color 0.3s ease-in, border-color 0.3s ease-in, color 0.3s;
 
     &:hover {
       font-weight: 700;
+      line-height: 1.4;
       color: var(--accent);
       border-bottom: 1px solid var(--accent);
-
+      padding-bottom: 2px;
     }
 
     &--active {
       color: var(--accent);
       font-weight: 700;
+      line-height: 1.5;
       border-bottom: 1px solid var(--accent);
     }
   }
@@ -48,10 +51,11 @@
 .user-nav {
   transform: translateY(3px);
   margin-right: 12px;
+  
 
   &__list {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
   }
 
   &__item:not(:last-child) {
@@ -60,6 +64,11 @@
 
   &__item {
     position: relative;
+  }
+
+  &__btn {
+    display: inline-block;
+    margin-bottom: 10px;
   }
 
   &__link {
