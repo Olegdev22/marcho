@@ -42,13 +42,28 @@ html {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
   }
-  
-  
-  
+
   .container {
 	max-width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;
+  }
+
+  .title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	line-height: 1.8;
+	color: var(--title);
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+  }
+
+  .text {
+	display: block;
+	text-align: center;
+	max-width: 570px;
+	transform: translateX(50%);
   }
   
   .main {

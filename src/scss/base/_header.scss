@@ -2,9 +2,18 @@
 
   &__inner {
     padding: 40px 0;
+    position: fixed;
+    top: 0;
+    width: 1144px;
+    z-index: 1;
   }
 
 
+}
+
+.sticky {
+  padding: 20px 0;
+  background-color: var(--bg);
 }
 
 .menu {
@@ -51,7 +60,7 @@
 .user-nav {
   transform: translateY(3px);
   margin-right: 12px;
-  
+
 
   &__list {
     display: flex;
