@@ -81,12 +81,15 @@
 
 .categories {
 
-  &__title {
+  &__titles {
     margin-bottom: 8px;
+    text-align: center;
   }
 
-  &__text {
+  &__text p {
     margin-bottom: 55px;
+    text-align: center;
+    transform: translate(50%);
   }
 
   &__items {
