@@ -5,7 +5,7 @@ html {
   *,
   *::before,
   *::after {
-	box-sizing: inherit;
+	box-sizing: border-box;
   }
   
   // !position fixed
@@ -55,12 +55,15 @@ html {
 	line-height: 1.2;
 	color: var(--title);
 	text-transform: uppercase;
-	display: block;
   }
 
-  .text {
+  .text-center {
 	display: block;
-	max-width: 570px;
+	max-width: 535px;
+    text-align: center;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
 	
   }
   

@@ -3,7 +3,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 120px 0;
-  margin-bottom: 107px;
 
   &__inner {
     display: flex;
@@ -24,7 +23,10 @@
 
   &__content {
     max-width: 570px;
-    transform: translateY(15%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   &__subtitle {
