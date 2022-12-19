@@ -19,6 +19,30 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
+
+    &:hover {
+
+      &::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: background-color 0.4s ease-in-out;
+      }
+
+      .video-fashion__play img {
+        scale: 0.75;
+        
+      }
+    }
+  }
+
+  &__play {
+    z-index: 1;
   }
 
   &__content {
@@ -27,15 +51,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-  }
-
-  &__subtitle {
-    font-size: 22px;
-    line-height: 1.1;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: 10px;
-    display: block;
   }
 
   &__title {

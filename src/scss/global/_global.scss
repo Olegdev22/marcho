@@ -49,6 +49,15 @@ html {
 	margin: 0 auto;
   }
 
+  .subtitle {
+	font-size: 22px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+    display: block;
+  }
+
   .title {
 	font-family: 'Roboto', sans-serif;
 	font-size: 48px;

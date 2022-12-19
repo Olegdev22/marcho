@@ -33,19 +33,18 @@
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
     padding: 0 3px;
     line-height: 1.5;
-    border: 1px solid transparent;
+    border-bottom: 2px solid transparent;
     color: var(--title);
     transition: border-bottom-color 0.3s ease-in, border-color 0.3s ease-in, color 0.3s;
+    padding-bottom: 3px;
 
     &:hover {
       font-weight: 700;
-      line-height: 1.4;
       color: var(--accent);
-      border-bottom: 1px solid var(--accent);
-      padding-bottom: 2px;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 3px;
     }
 
     &--active {
@@ -53,6 +52,7 @@
       font-weight: 700;
       line-height: 1.5;
       border-bottom: 1px solid var(--accent);
+      padding-bottom: 3px;
     }
   }
 }

@@ -41,13 +41,14 @@
     border-bottom: 2px solid transparent;
     color: var(--title);
     transition: border-bottom-color 0.3s ease-in, border-color 0.3s ease-in, color 0.3s;
+    padding-bottom: 1px;
 
     &:hover {
       font-weight: 700;
-      line-height: 1.5;
+      
       color: var(--accent);
       border-bottom: 2px solid var(--accent);
-      padding-bottom: 2px;
+      padding-bottom: 1px;
     }
 
     &--active {
