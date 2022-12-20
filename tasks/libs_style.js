@@ -1,6 +1,8 @@
 const plugins = [
+  'node_modules/slick-carousel/slick/slick.scss',
   'node_modules/swiper/swiper-bundle.css',
-  'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css'
+  'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
+  'node_modules/rateyo/src/jquery.rateyo.css'
 ];
 
 const {

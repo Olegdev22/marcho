@@ -1,0 +1,32 @@
+.button {
+    display: inline-block;
+    appearance: none;
+    transition: background-color 0.3s ease, box-shadow 0.4s linear;
+    padding: 15px 30px;
+    border: transparent;
+    background-color: var(--accent);
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0 7px 20px 0 rgba(255, 17, 48, 0.3);
+  
+    &:focus {
+        outline: transparent;
+        box-shadow: 0 0 0 1px rgba(#8d8d8d, 1);
+    }
+  
+    &:hover {
+        box-shadow: 0 0 0 1px rgba(#fe3e57, 1);
+        background-color: transparent;
+        color: var(--title);
+    }
+  
+    &:active {
+      box-shadow: inset 0 0 0 30px rgba(255, 255, 255, 0.1);
+      transform: translateY(2px);
+    }
+  }
